@@ -1,0 +1,98 @@
+xst -intstyle ise -ifn "D:/project_codes/IOT_Training/UART_Transmitter/Uart_tx.xst" -ofn "D:/project_codes/IOT_Training/UART_Transmitter/Uart_tx.syr" 
+xst -intstyle ise -ifn "D:/project_codes/IOT_Training/UART_Transmitter/Uart_tx.xst" -ofn "D:/project_codes/IOT_Training/UART_Transmitter/Uart_tx.syr" 
+xst -intstyle ise -ifn "D:/project_codes/IOT_Training/UART_Transmitter/Uart_tx.xst" -ofn "D:/project_codes/IOT_Training/UART_Transmitter/Uart_tx.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc uart.ucf -p xc6slx9-tqg144-2 Uart_tx.ngc Uart_tx.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc uart.ucf -p xc6slx9-tqg144-2 Uart_tx.ngc Uart_tx.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Uart_tx_map.ncd Uart_tx.ngd Uart_tx.pcf 
+par -w -intstyle ise -ol high -mt off Uart_tx_map.ncd Uart_tx.ncd Uart_tx.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Uart_tx.twx Uart_tx.ncd -o Uart_tx.twr Uart_tx.pcf -ucf uart.ucf 
+bitgen -intstyle ise -f Uart_tx.ut Uart_tx.ncd 
+xst -intstyle ise -ifn "D:/project_codes/IOT_Training/UART_Transmitter/Uart_tx.xst" -ofn "D:/project_codes/IOT_Training/UART_Transmitter/Uart_tx.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc uart.ucf -p xc6slx9-tqg144-2 Uart_tx.ngc Uart_tx.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Uart_tx_map.ncd Uart_tx.ngd Uart_tx.pcf 
+par -w -intstyle ise -ol high -mt off Uart_tx_map.ncd Uart_tx.ncd Uart_tx.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Uart_tx.twx Uart_tx.ncd -o Uart_tx.twr Uart_tx.pcf -ucf uart.ucf 
+bitgen -intstyle ise -f Uart_tx.ut Uart_tx.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc uart.ucf -p xc6slx9-tqg144-2 Uart_tx.ngc Uart_tx.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Uart_tx_map.ncd Uart_tx.ngd Uart_tx.pcf 
+par -w -intstyle ise -ol high -mt off Uart_tx_map.ncd Uart_tx.ncd Uart_tx.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Uart_tx.twx Uart_tx.ncd -o Uart_tx.twr Uart_tx.pcf -ucf uart.ucf 
+bitgen -intstyle ise -f Uart_tx.ut Uart_tx.ncd 
+xst -intstyle ise -ifn "D:/project_codes/IOT_Training/UART_Transmitter/Uart_tx.xst" -ofn "D:/project_codes/IOT_Training/UART_Transmitter/Uart_tx.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc uart.ucf -p xc6slx9-tqg144-2 Uart_tx.ngc Uart_tx.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Uart_tx_map.ncd Uart_tx.ngd Uart_tx.pcf 
+par -w -intstyle ise -ol high -mt off Uart_tx_map.ncd Uart_tx.ncd Uart_tx.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Uart_tx.twx Uart_tx.ncd -o Uart_tx.twr Uart_tx.pcf -ucf uart.ucf 
+bitgen -intstyle ise -f Uart_tx.ut Uart_tx.ncd 
+xst -intstyle ise -ifn "D:/project_codes/IOT_Training/UART_Transmitter/Uart_tx.xst" -ofn "D:/project_codes/IOT_Training/UART_Transmitter/Uart_tx.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc uart.ucf -p xc6slx9-tqg144-2 Uart_tx.ngc Uart_tx.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Uart_tx_map.ncd Uart_tx.ngd Uart_tx.pcf 
+par -w -intstyle ise -ol high -mt off Uart_tx_map.ncd Uart_tx.ncd Uart_tx.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Uart_tx.twx Uart_tx.ncd -o Uart_tx.twr Uart_tx.pcf -ucf uart.ucf 
+bitgen -intstyle ise -f Uart_tx.ut Uart_tx.ncd 
+xst -intstyle ise -ifn "D:/project_codes/edge_v2_codes/UART_Transmitter/Uart_tx.xst" -ofn "D:/project_codes/edge_v2_codes/UART_Transmitter/Uart_tx.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc uart.ucf -p xc6slx9-tqg144-2 Uart_tx.ngc Uart_tx.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Uart_tx_map.ncd Uart_tx.ngd Uart_tx.pcf 
+par -w -intstyle ise -ol high -mt off Uart_tx_map.ncd Uart_tx.ncd Uart_tx.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Uart_tx.twx Uart_tx.ncd -o Uart_tx.twr Uart_tx.pcf -ucf uart.ucf 
+bitgen -intstyle ise -f Uart_tx.ut Uart_tx.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc uart.ucf -p xc6slx9-tqg144-2 Uart_tx.ngc Uart_tx.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Uart_tx_map.ncd Uart_tx.ngd Uart_tx.pcf 
+par -w -intstyle ise -ol high -mt off Uart_tx_map.ncd Uart_tx.ncd Uart_tx.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Uart_tx.twx Uart_tx.ncd -o Uart_tx.twr Uart_tx.pcf -ucf uart.ucf 
+bitgen -intstyle ise -f Uart_tx.ut Uart_tx.ncd 
+xst -intstyle ise -ifn "D:/project_codes/edge_v2_codes/UART_Transmitter/Uart_tx.xst" -ofn "D:/project_codes/edge_v2_codes/UART_Transmitter/Uart_tx.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc uart.ucf -p xc6slx9-tqg144-2 Uart_tx.ngc Uart_tx.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Uart_tx_map.ncd Uart_tx.ngd Uart_tx.pcf 
+par -w -intstyle ise -ol high -mt off Uart_tx_map.ncd Uart_tx.ncd Uart_tx.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Uart_tx.twx Uart_tx.ncd -o Uart_tx.twr Uart_tx.pcf -ucf uart.ucf 
+bitgen -intstyle ise -f Uart_tx.ut Uart_tx.ncd 
+xst -intstyle ise -ifn "D:/project_codes/edge_v2_codes/UART_Transmitter/Uart_tx.xst" -ofn "D:/project_codes/edge_v2_codes/UART_Transmitter/Uart_tx.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc uart.ucf -p xc6slx9-tqg144-2 Uart_tx.ngc Uart_tx.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Uart_tx_map.ncd Uart_tx.ngd Uart_tx.pcf 
+par -w -intstyle ise -ol high -mt off Uart_tx_map.ncd Uart_tx.ncd Uart_tx.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Uart_tx.twx Uart_tx.ncd -o Uart_tx.twr Uart_tx.pcf -ucf uart.ucf 
+bitgen -intstyle ise -f Uart_tx.ut Uart_tx.ncd 
+xst -intstyle ise -ifn "D:/project_codes/edge_v2_codes/UART_Transmitter/Uart_tx.xst" -ofn "D:/project_codes/edge_v2_codes/UART_Transmitter/Uart_tx.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc uart.ucf -p xc6slx9-tqg144-2 Uart_tx.ngc Uart_tx.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Uart_tx_map.ncd Uart_tx.ngd Uart_tx.pcf 
+par -w -intstyle ise -ol high -mt off Uart_tx_map.ncd Uart_tx.ncd Uart_tx.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Uart_tx.twx Uart_tx.ncd -o Uart_tx.twr Uart_tx.pcf -ucf uart.ucf 
+bitgen -intstyle ise -f Uart_tx.ut Uart_tx.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc uart.ucf -p xc6slx9-tqg144-2 Uart_tx.ngc Uart_tx.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Uart_tx_map.ncd Uart_tx.ngd Uart_tx.pcf 
+par -w -intstyle ise -ol high -mt off Uart_tx_map.ncd Uart_tx.ncd Uart_tx.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Uart_tx.twx Uart_tx.ncd -o Uart_tx.twr Uart_tx.pcf -ucf uart.ucf 
+bitgen -intstyle ise -f Uart_tx.ut Uart_tx.ncd 
+xst -intstyle ise -ifn "D:/project_codes/edge_v2_codes/UART_Transmitter/Uart_tx.xst" -ofn "D:/project_codes/edge_v2_codes/UART_Transmitter/Uart_tx.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc uart.ucf -p xc6slx9-tqg144-2 Uart_tx.ngc Uart_tx.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Uart_tx_map.ncd Uart_tx.ngd Uart_tx.pcf 
+par -w -intstyle ise -ol high -mt off Uart_tx_map.ncd Uart_tx.ncd Uart_tx.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Uart_tx.twx Uart_tx.ncd -o Uart_tx.twr Uart_tx.pcf -ucf uart.ucf 
+bitgen -intstyle ise -f Uart_tx.ut Uart_tx.ncd 
+xst -intstyle ise -ifn "D:/project_codes/edge_v2_codes/UART_Transmitter/Uart_tx.xst" -ofn "D:/project_codes/edge_v2_codes/UART_Transmitter/Uart_tx.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc uart.ucf -p xc6slx9-tqg144-2 Uart_tx.ngc Uart_tx.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Uart_tx_map.ncd Uart_tx.ngd Uart_tx.pcf 
+par -w -intstyle ise -ol high -mt off Uart_tx_map.ncd Uart_tx.ncd Uart_tx.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Uart_tx.twx Uart_tx.ncd -o Uart_tx.twr Uart_tx.pcf -ucf uart.ucf 
+bitgen -intstyle ise -f Uart_tx.ut Uart_tx.ncd 
+xst -intstyle ise -ifn "D:/project_codes/edge_v2_codes/UART_Transmitter/Uart_tx.xst" -ofn "D:/project_codes/edge_v2_codes/UART_Transmitter/Uart_tx.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc uart.ucf -p xc6slx9-tqg144-2 Uart_tx.ngc Uart_tx.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Uart_tx_map.ncd Uart_tx.ngd Uart_tx.pcf 
+par -w -intstyle ise -ol high -mt off Uart_tx_map.ncd Uart_tx.ncd Uart_tx.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Uart_tx.twx Uart_tx.ncd -o Uart_tx.twr Uart_tx.pcf -ucf uart.ucf 
+bitgen -intstyle ise -f Uart_tx.ut Uart_tx.ncd 
+xst -intstyle ise -ifn "D:/project_codes/edge_v2_codes/UART_Transmitter/Uart_tx.xst" -ofn "D:/project_codes/edge_v2_codes/UART_Transmitter/Uart_tx.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc uart.ucf -p xc6slx9-tqg144-2 Uart_tx.ngc Uart_tx.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Uart_tx_map.ncd Uart_tx.ngd Uart_tx.pcf 
+par -w -intstyle ise -ol high -mt off Uart_tx_map.ncd Uart_tx.ncd Uart_tx.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Uart_tx.twx Uart_tx.ncd -o Uart_tx.twr Uart_tx.pcf -ucf uart.ucf 
+bitgen -intstyle ise -f Uart_tx.ut Uart_tx.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc uart.ucf -p xc6slx9-tqg144-2 "Uart_tx.ngc" Uart_tx.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Uart_tx_map.ncd Uart_tx.ngd Uart_tx.pcf 
+xst -intstyle ise -ifn "D:/edge fpga/EDGE Board Documents/edge_v2_codes/UART_Transmitter/Uart_tx.xst" -ofn "D:/edge fpga/EDGE Board Documents/edge_v2_codes/UART_Transmitter/Uart_tx.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc uart.ucf -p xc6slx16-ftg256-2 "Uart_tx.ngc" Uart_tx.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Uart_tx_map.ncd Uart_tx.ngd Uart_tx.pcf 
+par -w -intstyle ise -ol high -mt off Uart_tx_map.ncd Uart_tx.ncd Uart_tx.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Uart_tx.twx Uart_tx.ncd -o Uart_tx.twr Uart_tx.pcf -ucf uart.ucf 
+bitgen -intstyle ise -f Uart_tx.ut Uart_tx.ncd 

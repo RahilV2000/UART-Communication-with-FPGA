@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/Admin/Desktop/UART_Transmitter/uarttest_isim_beh.exe" -prj "C:/Users/Admin/Desktop/UART_Transmitter/uarttest_beh.prj" "work.uarttest" 
